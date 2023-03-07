@@ -20,6 +20,7 @@ namespace TrocaDeValores
         private void btnTrocar_Click(object sender, EventArgs e)
         {
             string auxiliar;
+
             auxiliar = txtValor1.Text;
             txtValor1.Text = txtValor2.Text;
             txtValor2.Text = auxiliar;
